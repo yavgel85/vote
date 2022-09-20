@@ -20,6 +20,7 @@
         <livewire:styles />
 
         <!-- Scripts -->
+        <script src="https://cdn.tiny.cloud/1/5goqjyeyi7zl5vpncuzb4ex2b3du2rj920a4mvmn1fkrn8lx/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="font-sans bg-gray-background text-gray-900 text-sm">

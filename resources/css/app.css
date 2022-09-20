@@ -86,3 +86,7 @@
 .status-closed, .status-closed:before {
     @apply bg-red text-white;
 }
+
+.tox-notifications-container{
+    display: none;
+}

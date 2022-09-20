@@ -40,7 +40,8 @@
                     @endif
                 @endadmin
 
-                {{ $idea->description }}
+{{--                {{ $idea->description }}--}}
+                {!! $idea->description !!}
             </div>
 
             <div class="flex flex-col md:flex-row md:items-center justify-between mt-6">

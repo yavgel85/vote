@@ -25,7 +25,8 @@
                 @endif
 
                 <div class="mt-4 md:mt-0">
-                    {!! nl2br(e($comment->body)) !!}
+{{--                    {!! nl2br(e($comment->body)) !!}--}}
+                    {!! $comment->body !!}
                 </div>
             </div>
 
